@@ -1,0 +1,12 @@
+# Ignore everything except /input and /plugins
+
+.tmp
+gradle
+hub-internal-config
+build.gradle
+gradle-local.properties
+gradle.properties
+gradlew
+gradlew.bat
+quick-start-1.1.3.war
+input/SAVED
