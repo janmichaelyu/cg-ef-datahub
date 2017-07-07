@@ -1,5 +1,5 @@
 SkillId,SortOrder,DimensionId,Parent,Ancestors,NestingLevel,Children,Selectable,Description,English
-4342,1461,1,2562,$1$1501$2562$,3,0,1,"SAP Basis†Installation, Patching and Upgrade / Administration","SAP Basis†Installation, Patching and Upgrade / Administration"
+4342,1461,1,2562,$1$1501$2562$,3,0,1,"SAP Basis Installation, Patching and Upgrade / Administration","SAP Basis Installation, Patching and Upgrade / Administration"
 4343,1462,1,2562,$1$1501$2562$,3,0,1,SAP Basis Admin,SAP Basis Admin
 4344,1463,1,2562,$1$1501$2562$,3,0,1,SAP Basis Netweaver,SAP Basis Netweaver
 4345,1464,1,2562,$1$1501$2562$,3,0,1,SAP BASIS Security,SAP BASIS Security
