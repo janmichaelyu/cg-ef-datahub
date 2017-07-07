@@ -4,13 +4,13 @@ This repo should be used to setup the directory that will be used to house and r
 
 ## Contents
 
-This `cg-ef-datahub` directory will contain two directories: `/input` and `/plugins`.
+This `cg-ef-datahub` directory will contain three directories: `/.tmp`, `/input` and `/plugins`.
 
-The `/plugins` folder contains the Ingest and Harmonise routines that we will use within the Data Hub.
+The `/.tmp` and `/plugins` folders contain the Ingest and Harmonise routines and sample source files that we will ingest to the Data Hub.
 
-The `/input` folder contains subfolders for each source data file that will be ingested using Data Hub. Also contained here, you will find a number of `_BLANK.csv` files -- these are placeholders for the actual source data files that you will be ingesting. Replace the `_BLANK.csv` files with the actual source CSV files.
+The `/input` folder contains subfolders for each source data file that will be ingested using Data Hub. Also contained here, you will find a number of anonymous `*anon*.csv` files -- these are anonymised samples from the production source data files. You can replace the `*anon*.csv` files with the actual source CSV files you want to ingest.
 
-**IMPORTANT:** You must ensure that your actual source CSV files have the same structure as the `*anon*.csv` input files provided in this repository.
+**IMPORTANT:** You must ensure that your actual source CSV files have the same structure as the `*anon*.csv` sample input files provided in this repository.
 
 ## Instructions
 

@@ -1,6 +1,6 @@
 # Ignore everything except /input and /plugins
 
-.tmp
+.tmp/Assignment-in_assign_retain.txt
 gradle
 hub-internal-config
 build.gradle
