@@ -21,7 +21,7 @@ The `/input` folder contains subfolders for each source data file that will be i
         /cg-ef-slushapp
 **...**
 
-Unzip or clone this **cg-ef-datahub** repo onto your local machine. You will now have a `/cg-ef-datahub` folder with the contents described above.
+Clone this **cg-ef-datahub** repo onto your local machine. You will now have a `/cg-ef-datahub` folder with the contents described above.
 
 You can replace the `*anon*.csv` input files with your actual source CSV files, as described above, making sure they have the same structure.
 
@@ -42,8 +42,10 @@ Open a browser and run the Quick Start application. This will step you through c
 - Quick Start will then ask to install the Data Hub Framework. Click INSTALL -- this will take a moment to complete
 - Once the install completes, you can go to the Entities tab of the Quick Start application, and you should be able to see the expected Entities, Input and Harmonize Flows.
 
+**IMPORTANT** For each Entity's Input Flows, you will need to update the **Output URI Replace** option to reflect the actual path name of your installation.
+
 At this stage, you are ready to ingest the source data into the MarkLogic Data Hub Framework. Assuming you have your source data CSV files in the correct `/input` folder locations, you can then run the Input Flows to bring the source data into the STAGING database, and then run the "Employee" Harmonize Flow to merge and move data into the FINAL database.
 
 ## Next Steps
 
-Setup the frontend search application using [MarkLogic's Slush generator](https://github.com/marklogic-community/slush-marklogic-node).
+Setup the frontend search application using the [CG Expert Finder Slush App repository](https://github.com/MJMoody/cg-ef-slushapp).
