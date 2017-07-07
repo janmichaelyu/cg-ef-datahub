@@ -10,7 +10,7 @@ The `/plugins` folder contains the Ingest and Harmonise routines that we will us
 
 The `/input` folder contains subfolders for each source data file that will be ingested using Data Hub. Also contained here, you will find a number of `_BLANK.csv` files -- these are placeholders for the actual source data files that you will be ingesting. Replace the `_BLANK.csv` files with the actual source CSV files.
 
-**IMPORTANT:** You must ensure that your actual source CSV files have the same structure as the `_BLANK.csv` files provided.
+**IMPORTANT:** You must ensure that your actual source CSV files have the same structure as the `*anon*.csv` input files provided in this repository.
 
 ## Instructions
 
@@ -23,7 +23,7 @@ The `/input` folder contains subfolders for each source data file that will be i
 
 Unzip or clone this **cg-ef-datahub** repo onto your local machine. You will now have a `/cg-ef-datahub` folder with the contents described above.
 
-Replace the `_BLANK.csv` files with your actual source CSV files, as described above.
+You can replace the `*anon*.csv` input files with your actual source CSV files, as described above, making sure they have the same structure.
 
 Download the latest [v1 Quick Start application](https://github.com/marklogic-community/marklogic-data-hub/releases) from Releases section of the [MarkLogic Data Hub repository](https://github.com/marklogic-community/marklogic-data-hub). Place the Quick Start `.war` file into the same `/cg-ef-datahub` folder.
 

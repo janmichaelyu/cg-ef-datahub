@@ -1,0 +1,21 @@
+SkillId,SortOrder,DimensionId,Parent,Ancestors,NestingLevel,Children,Selectable,Description,English
+4342,1461,1,2562,$1$1501$2562$,3,0,1,"SAP Basis Installation, Patching and Upgrade / Administration","SAP Basis Installation, Patching and Upgrade / Administration"
+4343,1462,1,2562,$1$1501$2562$,3,0,1,SAP Basis Admin,SAP Basis Admin
+4344,1463,1,2562,$1$1501$2562$,3,0,1,SAP Basis Netweaver,SAP Basis Netweaver
+4345,1464,1,2562,$1$1501$2562$,3,0,1,SAP BASIS Security,SAP BASIS Security
+4346,1465,1,2562,$1$1501$2562$,3,0,1,SAP Basis Upgrade,SAP Basis Upgrade
+4347,1466,1,2562,$1$1501$2562$,3,0,1,SAP GRC - Access Control,SAP GRC - Access Control
+4348,1467,1,2562,$1$1501$2562$,3,0,1,SAP BASIS HANA Admin,SAP BASIS HANA Admin
+4349,1468,1,2563,$1$1501$2563$,3,0,1,SAP BPC Netweaver,SAP BPC Netweaver
+4350,1469,1,2563,$1$1501$2563$,3,0,1,SAP BW BPS,SAP BW BPS
+4351,1470,1,2563,$1$1501$2563$,3,0,1,SAP BW Reporting,SAP BW Reporting
+4352,1471,1,2563,$1$1501$2563$,3,0,1,SAP BW-IP,SAP BW-IP
+4353,1472,1,2564,$1$1501$2564$,3,0,1,SAP GRC - Administration,SAP GRC - Administration
+4354,1473,1,2565,$1$1501$2565$,3,0,1,SAP ICM - Administration,SAP ICM - Administration
+4355,1474,1,2566,$1$1501$2566$,3,0,1,SAP ITS - Administration,SAP ITS - Administration
+4356,1475,1,2567,$1$1501$2567$,3,0,1,SAP KM - Administration,SAP KM - Administration
+4357,1476,1,2568,$1$1501$2568$,3,0,1,SAP PI/XI Administration,SAP PI/XI Administration
+4358,1477,1,2569,$1$1501$2569$,3,0,1,SAP SCM - Administration,SAP SCM - Administration
+4359,1478,1,2570,$1$1501$2570$,3,0,1,SAP TDMS - Administration,SAP TDMS - Administration
+4360,1479,1,2572,$1$1501$2572$,3,0,1,SAP BI/BW - Administration,SAP BI/BW - Administration
+4361,1480,1,2573,$1$1501$2573$,3,0,1,SAP BOBJ - Administration,SAP BOBJ - Administration
