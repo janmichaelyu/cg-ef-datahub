@@ -10,7 +10,7 @@ The `/.tmp` and `/plugins` folders contain the Ingest and Harmonise routines and
 
 The `/input` folder contains subfolders for each source data file that will be ingested using Data Hub. Also contained here, you will find a number of anonymous `*anon*.csv` files -- these are anonymised samples from the production source data files. You can replace the `*anon*.csv` files with the actual source CSV files you want to ingest.
 
-**IMPORTANT:** You must ensure that your actual source CSV files have the same structure as the `*anon*.csv` sample input files provided in this repository.
+**IMPORTANT:** You must ensure that your actual source CSV files have the same structure as the `*anon*.csv` sample input files provided in this repository. Do not change the `weeks-reference*.xml` files.
 
 ## Instructions
 
@@ -44,7 +44,7 @@ Open a browser and run the Quick Start application. This will step you through c
 
 **IMPORTANT** For each Entity's Input Flows, you will need to update the **Output URI Replace** option to reflect the actual path name of your installation.
 
-At this stage, you are ready to ingest the source data into the MarkLogic Data Hub Framework. Assuming you have your source data CSV files in the correct `/input` folder locations, you can then run the Input Flows to bring the source data into the STAGING database, and then run the "Employee" Harmonize Flow to merge and move data into the FINAL database.
+At this stage, you are ready to ingest the source data into the MarkLogic Data Hub Framework. Assuming you have your source data CSV files in the correct `/input` folder locations, you can then run the Input Flows to bring the source data into the STAGING database, including any Input Flows for Reference Data. After all the data is ingested, you can run the "Employee" Harmonize Flow to merge and move data into the FINAL database.
 
 ## Next Steps
 
