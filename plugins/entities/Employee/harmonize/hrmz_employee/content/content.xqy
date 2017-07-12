@@ -53,19 +53,20 @@ declare function plugin:create-content($id as xs:string, $options as map:map) as
   let $allskills := for $skill in $skills
     return get-skill-description($skill)
   
-  let $assignments := cts:search(
-    collection("assignments")//envelope:content,
-    cts:element-query(xs:QName("Employee_Number"), $consultantid))[1]
+  let $assignments :=
 
-  let $reference := collection("in_weeklyref_xml")[1]//*:weeks
+      xdmp:invoke-function(
+              function() {
+                  cts:search(
+                          collection("assignment")//envelope:content,
+                          cts:element-query(xs:QName("Employee_Number"), $consultantid))[1]
+              },
+              <options xmlns="xdmp:eval">
+                  <database>{xdmp:database("cg-ef-datahub-FINAL")}</database>
+              </options>)
 
-  let $assignments := cts:search(
-          collection("assignments")//envelope:content,
-          cts:element-query(xs:QName("Employee_Number"), $consultantid))[1]
 
-  let $reference := collection("in_weeklyref_xml")[1]//*:weeks
 
-  let $assignments := add-start-date($assignments, "Week", $reference)
 
   return element consultant {
     $doc//envelope:content/consultant/child::*,
